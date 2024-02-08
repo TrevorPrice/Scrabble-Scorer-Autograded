@@ -33,7 +33,7 @@ function oldScrabbleScorer(word) {
 // don't change the names or your program won't work as expected. //
 
 function initialPrompt() {
-   console.log("Let's play some scrabble!\n");
+   console.log("Let's play some Scrabble!\n");
    let initalWord = input.question("Please enter a word to score: ");
    return initalWord;
 };
@@ -94,7 +94,7 @@ let bonusVowels = {
    'scorerFunction': vowelBonusScorer
 };
 let scrabble = {
-   'name':'Scarbble',
+   'name':'Scrabble',
    'description':'The traditional scoring algorithm.',
    'scorerFunction': scrabbleScorer
 };
